@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SimpleRemix — Home</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top glass">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <span class="logo-dot"></span>
+        <span class="ms-2 fw-bold">SimpleRemix</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item ms-3 d-none d-lg-block">
+            <a class="btn btn-cta" href="#cta">Get Started</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero-section">
+    <div class="hero-glow"></div>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 text-white">
+          <h1 class="display-5 fw-bold hero-title">Design fast. Ship faster.</h1>
+          <p class="lead hero-sub">Beautiful Bootstrap templates with smooth animations and lively gradients — ready to remix and deploy.</p>
+          <div class="mt-4">
+            <a href="about.html" class="btn btn-outline-light btn-lg me-2 hero-btn">Learn more</a>
+            <a href="contact.html" class="btn btn-light btn-lg btn-cta">Contact us</a>
+          </div>
+
+          <div class="mt-4 d-flex gap-3">
+            <div class="stat">
+              <h4 class="mb-0">24</h4>
+              <small>Components</small>
+            </div>
+            <div class="stat">
+              <h4 class="mb-0">99%</h4>
+              <small>User happy score</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 d-none d-lg-block">
+          <div class="card showcase-card shadow-lg">
+            <img src="https://picsum.photos/seed/ui1/900/600" class="card-img-top rounded" alt="showcase">
+            <div class="card-body">
+              <h5 class="card-title">Example UI</h5>
+              <p class="card-text text-muted small">A modern hero screenshot with soft rounded corners and drop shadows.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- FEATURES SECTION -->
+  <section class="py-5" id="features">
+    <div class="container">
+      <div class="text-center mb-4">
+        <h3 class="fw-bold">Features you'll love</h3>
+        <p class="text-muted">Gradient palettes, micro-interactions, accessible components.</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="feature-card p-4 h-100 shadow-sm">
+            <div class="icon-circle"><i class="bi bi-brightness-high-fill"></i></div>
+            <h5 class="mt-3">Vibrant gradients</h5>
+            <p class="small text-muted">Curated palettes that look good on every screen.</p>
+            <a class="feature-link" href="#">Explore →</a>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="feature-card p-4 h-100 shadow-sm">
+            <div class="icon-circle"><i class="bi bi-lightning-fill"></i></div>
+            <h5 class="mt-3">Smooth animations</h5>
+            <p class="small text-muted">Subtle transforms and glows that bring UI to life.</p>
+            <a class="feature-link" href="#">Explore →</a>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="feature-card p-4 h-100 shadow-sm">
+            <div class="icon-circle"><i class="bi bi-phone-fill"></i></div>
+            <h5 class="mt-3">Responsive first</h5>
+            <p class="small text-muted">Mobile-friendly layouts and optimized spacing.</p>
+            <a class="feature-link" href="#">Explore →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CARDS GRID -->
+  <section class="py-5 bg-soft">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="glass-card p-4 h-100">
+            <div class="d-flex justify-content-between align-items-start">
+              <h5 class="mb-2">Design system</h5>
+              <span class="badge badge-soft">New</span>
+            </div>
+            <p class="text-muted small">A set of components and tokens to keep your UI consistent.</p>
+            <div class="mt-auto text-end">
+              <a class="btn btn-outline-primary" href="#">View</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="glass-card p-4 h-100">
+            <h5 class="mb-2">Documentation</h5>
+            <p class="text-muted small">Clear examples and copy-ready snippets for faster development.</p>
+            <div class="mt-auto text-end">
+              <a class="btn btn-outline-primary" href="#">Open</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-5 text-center" id="cta">
+    <div class="container">
+      <div class="bg-gradient-cta rounded-4 p-4 shadow-lg">
+        <h3 class="fw-bold text-white mb-2">Ready to remix?</h3>
+        <p class="text-white-75 mb-3">Clone the repo, tweak colors, and deploy in minutes.</p>
+        <a href="contact.html" class="btn btn-light btn-lg">Contact for help</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-4 text-center small text-muted">
+    <div class="container">
+      <div class="mb-2">© <span id="year"></span> SimpleRemix — Crafted with gradients</div>
+      <div><a href="#" class="text-muted me-3">Privacy</a><a href="#" class="text-muted">Terms</a></div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap + icons -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.js"></script>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
